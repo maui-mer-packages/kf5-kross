@@ -96,7 +96,7 @@ SubPackages:
           - "%{_kf5_bindir}/kf5kross"
           - "%{_kf5_libdir}/libKF5KrossCore.so.*"
           - "%{_kf5_qtplugindir}/krossqts.so"
-          - "%{_kf5_qtplugindir}/script/libkrossqtsplugin.so.*"
+          - "%{_kf5_qtplugindir}/script/krossqtsplugin.so.*"
       Requires:
           - kf5-filesystem
     - Name: ui
@@ -106,8 +106,8 @@ SubPackages:
         GUI part of the Sonnet framework provides low-level spell checking tools.
       Files:
           - "%{_kf5_libdir}/libKF5KrossUi.so.*"
-          - "%{_kf5_qtplugindir}/kf5/KrossModuleForms.so"
-          - "%{_kf5_qtplugindir}/kf5/KrossModuleKdeTranslation.so"
+          - "%{_kf5_qtplugindir}/KrossModuleForms.so"
+          - "%{_kf5_qtplugindir}/KrossModuleKdeTranslation.so"
 
       FilesInput: sonnet5_qt.lang
       Requires:

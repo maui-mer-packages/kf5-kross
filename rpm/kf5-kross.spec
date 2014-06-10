@@ -167,15 +167,15 @@ rm -rf %{buildroot}
 %{_kf5_bindir}/kf5kross
 %{_kf5_libdir}/libKF5KrossCore.so.*
 %{_kf5_qtplugindir}/krossqts.so
-%{_kf5_qtplugindir}/script/libkrossqtsplugin.so.*
+%{_kf5_qtplugindir}/script/krossqtsplugin.so.*
 # >> files core
 # << files core
 
 %files ui -f sonnet5_qt.lang
 %defattr(-,root,root,-)
 %{_kf5_libdir}/libKF5KrossUi.so.*
-%{_kf5_qtplugindir}/kf5/KrossModuleForms.so
-%{_kf5_qtplugindir}/kf5/KrossModuleKdeTranslation.so
+%{_kf5_qtplugindir}/KrossModuleForms.so
+%{_kf5_qtplugindir}/KrossModuleKdeTranslation.so
 # >> files ui
 # << files ui
 
