@@ -158,6 +158,7 @@ rm -rf %{buildroot}
 %{_kf5_libdir}/libKF5KrossCore.so
 %{_kf5_libdir}/libKF5KrossUi.so
 %{_kf5_libdir}/cmake/KF5Kross
+%{_datadir}/qt5/mkspecs/modules/qt_*.pri
 # >> files devel
 # << files devel
 
