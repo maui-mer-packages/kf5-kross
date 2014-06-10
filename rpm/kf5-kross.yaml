@@ -107,8 +107,6 @@ SubPackages:
           - "%{_kf5_libdir}/libKF5KrossUi.so.*"
           - "%{_kf5_qtplugindir}/KrossModuleForms.so"
           - "%{_kf5_qtplugindir}/KrossModuleKdeTranslation.so"
-
-      FilesInput: sonnet5_qt.lang
       Requires:
           - kf5-kross-core%{?_isa} = %{version}-%{release}
           - kf5-filesystem

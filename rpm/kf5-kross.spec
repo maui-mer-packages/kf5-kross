@@ -170,7 +170,7 @@ rm -rf %{buildroot}
 # >> files core
 # << files core
 
-%files ui -f sonnet5_qt.lang
+%files ui
 %defattr(-,root,root,-)
 %{_kf5_libdir}/libKF5KrossUi.so.*
 %{_kf5_qtplugindir}/KrossModuleForms.so
