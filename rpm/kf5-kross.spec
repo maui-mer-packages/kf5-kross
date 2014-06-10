@@ -157,7 +157,7 @@ rm -rf %{buildroot}
 %{_kf5_includedir}/KrossCore
 %{_kf5_libdir}/libKF5KrossCore.so
 %{_kf5_libdir}/libKF5KrossUi.so
-%{_kf5_qtplugindir}/script/libkrossqtsplugin.so
+%{_kf5_qtplugindir}/script/krossqtsplugin.so
 %{_kf5_libdir}/cmake/KF5Kross
 # >> files devel
 # << files devel
