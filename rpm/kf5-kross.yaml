@@ -97,6 +97,7 @@ SubPackages:
           - "%{_kf5_libdir}/libKF5KrossCore.so.*"
           - "%{_kf5_qtplugindir}/krossqts.so"
           - "%{_kf5_qtplugindir}/script/krossqtsplugin.so"
+      FilesInput: kross5_qt.lang
       Requires:
           - kf5-filesystem
     - Name: ui

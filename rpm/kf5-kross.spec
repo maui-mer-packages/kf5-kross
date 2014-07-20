@@ -122,6 +122,7 @@ Documentation and user manuals for the Kross framework
 rm -rf %{buildroot}
 # >> install pre
 %kf5_make_install
+%find_lang kross5_qt --with-qt --all-name || :
 # << install pre
 
 # >> install post
@@ -144,7 +145,7 @@ rm -rf %{buildroot}
 # >> files devel
 # << files devel
 
-%files core
+%files core -f kross5_qt.lang
 %defattr(-,root,root,-)
 %{_kf5_bindir}/kf5kross
 %{_kf5_libdir}/libKF5KrossCore.so.*
