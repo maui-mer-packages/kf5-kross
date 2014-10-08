@@ -7,7 +7,6 @@ Summary      : KDE Frameworks 5 Tier 3 solution for application scripting
 Description  : |
   KDE Frameworks 5 Tier 3 solution for application scripting
 URL          : http://www.kde.org
-SetupOptions : -q -n %{name}-%{version}/upstream
 
 Sources:
     - "%{name}-%{version}.tar.xz"
